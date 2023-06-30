@@ -13,7 +13,8 @@ if (isset($_POST['crear'])) {
     $med_id = $_POST["med_id"];
     // Preparar la consulta SQL para insertar el nuevo médico
     $sql = "INSERT INTO pacientes (pac_id, pac_nom, pac_dir, pac_tel, pac_cod_pos, pac_ced, pac_num_seg_soc, med_id) 
-            VALUES ('$pac_id', '$pac_nom', '$pac_dir', '$pac_tel', '$pac_cod_pos', '$pac_ced', '$pac_num_seg_soc', '$med_id')";
+            VALUES ('$pac_id', '$pac_nom', '$pac_dir', '$pac_tel', '$pac_cod_pos', '$pac_ced', '$pac_num_seg_soc', 
+            '$med_id')";
 
     if (mysqli_query($conn, $sql)) {
         echo '<script>

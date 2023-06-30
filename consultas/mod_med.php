@@ -16,8 +16,10 @@ if (isset($_POST['crear'])) {
     $med_tip = $_POST["med_tip"];
 
     // Preparar la consulta SQL para insertar el nuevo médico
-    $sql = "INSERT INTO medicos (med_id, med_nom, med_dir, med_tel, med_ciu, med_dep, med_cod_pos, med_ced, med_num_seg_soc, med_mat_pro, med_tip) 
-            VALUES ('$med_id', '$med_nom', '$med_dir', '$med_tel', '$med_ciu', '$med_dep', '$med_cod_pos', '$med_ced', '$med_num_seg_soc', '$med_mat_pro', '$med_tip')";
+    $sql = "INSERT INTO medicos (med_id, med_nom, med_dir, med_tel, med_ciu, med_dep, med_cod_pos,
+     med_ced, med_num_seg_soc, med_mat_pro, med_tip) 
+            VALUES ('$med_id', '$med_nom', '$med_dir', '$med_tel', '$med_ciu', 
+            '$med_dep', '$med_cod_pos', '$med_ced', '$med_num_seg_soc', '$med_mat_pro', '$med_tip')";
 
     if (mysqli_query($conn, $sql)) {
         echo '<script>

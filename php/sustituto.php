@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sana que Sana</title>
-    <link rel="stylesheet" href="../css/medicos.css">
+    <link rel="stylesheet" href="../css/stilos.css">
 </head>
 <body>
 <nav>
