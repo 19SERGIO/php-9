@@ -1,0 +1,71 @@
+body {
+    background-color: #065893;
+    color: #fbe4a3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #179cbc;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fbe4a3;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #47c0a7;
+    color: #065893;
+}
+
+
+h2 {
+    margin-top: 20px;
+    color: #fbe4a3;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #fbe4a3;
+}
+
+form input[type="text"],
+form select {
+    width: 300px;
+    padding: 5px;
+}
+
+form input[type="submit"] {
+    margin-top: 10px;
+    background-color: #179cbc;
+    color: #fbe4a3;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
